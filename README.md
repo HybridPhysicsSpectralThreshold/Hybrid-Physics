@@ -16,7 +16,7 @@ Combines symbolic algebra (axioms, theorems, AC‑matching) with real/synthetic 
 ## Installation
 
 ```python
-git clone https://github.com/yourusername/hpst.git
+git clone https://github.com/HybridPhysicsSpectralThreshold/Hybrid-Physics.git
 cd hpst
 pip install -r requirements.txt
 ```
