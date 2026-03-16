@@ -1,0 +1,25 @@
+{
+  "timestamp": "20260316_005307",
+  "data_source": "synthetic (vortex street)",
+  "n_points": 39762,
+  "theorems_verified": 3,
+  "u_mean": 1.1040892601013184,
+  "u_std": 1.0363930463790894,
+  "v_mean": 9.593826427733987e-11,
+  "v_std": 0.7922737002372742,
+  "speed_mean": 1.2467620372772217,
+  "speed_std": 1.168930172920227,
+  "bernoulli_mean": -3.440149276556781e-09,
+  "bernoulli_range": 6.103515625e-05,
+  "thresholds": {
+    "0.5": 97.33414053916931,
+    "1.0": 33.20758640766144,
+    "1.5": 19.7550430893898
+  },
+  "adaptive_threshold": 2.4156922101974487,
+  "pct_above_adaptive": 7.529802620410919,
+  "eigen_mean": 0.06022360776551068,
+  "device": "CUDA",
+  "gnn_loss": 0.6074034571647644,
+  "div_error": 0.3789680600166321
+}
