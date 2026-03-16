@@ -1,17 +1,11 @@
 # HPST: Hybrid Physics‑Spectral‑Threshold Framework
 
-A lightweight theorem‑proving framework for tensor mathematics with physical data validation.  
-Combines symbolic algebra (axioms, theorems, AC‑matching) with real/synthetic fluid dynamics data to compute conservation laws, adaptive thresholds, and eigenvalue‑based flow characterisation.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-red.svg)](https://pytorch.org/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
-## Features
-
-- Symbolic expression system for tensor operations (Add, Mul, MatMul, Transpose, Divergence, Vorticity, EigenDecomp, Threshold)
-- AC‑matching rewriting engine to verify algebraic identities
-- FormalSystem container for axioms and theorems
-- Data loader that fetches real cylinder wake data (with fallback to synthetic)
-- Physical analysis: flow statistics, Bernoulli invariant, threshold analysis, adaptive threshold (mean+std), eigenvalue magnitudes
-- Results saved as JSON + PNG plots
-- Fully reproducible; runs on Kaggle/Colab with a single click
+A unified framework integrating **symbolic theorem proving**, **physics‑informed constraints**, and **graph neural networks** for robust and interpretable fluid flow analysis.
 
 ## Installation
 
@@ -28,12 +22,15 @@ Run the complete experiment:
 from hpst.experiment import run_experiment
 run_experiment(prefer_real=True)   # tries real data, falls back to synthetic
 ```
-Citation
+📄 Citation
+
+If you use this code in your research, please cite our paper:
+
 ```python
-@article{hpst2025,
-  title={HPST: Hybrid Physics‑Spectral‑Threshold framework for theorem proving and fluid data analysis},
-  author={Your Name},
-  journal={Journal of Computational Physics},
+@article{mostafa2025hpst,
+  title={HPST: A Hybrid Physics-Spectral-Threshold Framework for Fluid Flow Analysis with Theorem Proving and Graph Neural Networks},
+  author={Mostafa, Mohsen},
+  journal={Journal of Computational Physics (Under Review)},
   year={2025}
 }
 ```
