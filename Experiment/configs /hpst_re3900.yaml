@@ -1,0 +1,12 @@
+name: HPST-Re3900
+data_source: re3900
+model_type: gnn
+use_hpst: true
+alpha: 0.7
+n_clusters: 5
+hidden_dim: 256
+n_layers: 6
+n_heads: 8
+dropout: 0.1
+learning_rate: 0.001
+weight_decay: 0.00001
