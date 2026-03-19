@@ -24,14 +24,13 @@ The Hybrid Physics-Spectral-Threshold (HPST) framework integrates physics-based 
 
 ## 📊 Key Results
 
-| Dataset              | Flow Regime           | GNN R²  | HPST R²   | Improvement |
-|--------------------- |----------------- ---- |--------|------------|-------------|
-| Re=100               | Laminar cylinder wake | 0.9521 | **0.9566** | +0.5%       |
-| Re=1000              | Transitional wake     | 0.9302 | **0.9464** | +1.7%       |
-| **Re=3900**          | **Turbulent wake**    | 0.9071 | **0.9183** | **+4.4%**   |
-| Airfoil              | Attached flow         | 0.9817 | **0.9894** | +0.8%       |
-| Backward-facing step | Separated flow        | 0.9506 | **0.9522** | +0.2%       |
-| Noisy PIV            | Experimental data     | 0.9020 | **0.9020** | Tie         |
+Dataset	               Flow Regime	            GNN R²	   HPST R²	  Improvement
+Re=100	               Laminar cylinder wake	0.9521	   0.9566	  +0.5%
+Re=1000	               Transitional wake	    0.9302	   0.9464	  +1.7%
+Re=3900	               Turbulent wake	        0.9071	   0.9183	  +4.4%
+Airfoil	               Attached flow	        0.9817	   0.9894	  +0.8%
+Backward-facing step   Separated flow	        0.9506	   0.9522	  +0.2%
+Noisy PIV	           Experimental data	    0.9020	   0.9020	  Tie
 
 ## 🚀 Quick Start
 
